@@ -4,21 +4,21 @@
 
 Este proyecto realiza un análisis de datos de accidentes de tránsito utilizando PySpark. Los datos provienen del portal de datos abiertos de Colombia y se procesan desde un archivo CSV almacenado en HDFS.
 
-## 📂 Estructura del Proyecto
+## Estructura del Proyecto
 - `accidentes.py`: Script principal que lee el archivo CSV desde HDFS, realiza análisis por año, día de la semana y gravedad, y muestra estadísticas.
 - `wacd-xkg8.csv`: Archivo de datos de accidentes (subido a HDFS).
 - `README.md`: Este archivo con la descripción del proyecto.
 - `requirements.txt`: Lista de dependencias necesarias para ejecutar el proyecto.
 
-## 📊 Análisis Realizado
+## Análisis Realizado
 - Conteo de accidentes por año (`a_o`)
 - Conteo de accidentes por día de la semana (`dia`)
 - Conteo de accidentes por nivel de gravedad (`gravedad`)
 - Estadísticas descriptivas del conjunto de datos
 
-## 🚀 Instrucciones de Ejecución
+## Instrucciones de Ejecución
 
-### 1. Subir el archivo CSV a HDFS
+### 1. crear entorno virtual
 
 Crea un entorno virtual e instala dependencias:
 ```bash
