@@ -11,7 +11,7 @@ Este proyecto realiza un análisis de datos de accidentes de tránsito utilizand
 - `requirements.txt`: Lista de dependencias necesarias para ejecutar el proyecto.
 
 ## Análisis Realizado
-- Conteo de accidentes por año (`a_o`)
+- Conteo de accidentes por año (`año`)
 - Conteo de accidentes por día de la semana (`dia`)
 - Conteo de accidentes por nivel de gravedad (`gravedad`)
 - Estadísticas descriptivas del conjunto de datos
